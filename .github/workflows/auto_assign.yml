@@ -16,4 +16,4 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          configuration-path: './auto_assign_config.yml' 
+          configuration-path: '.github/auto_assign_config.yml' 
